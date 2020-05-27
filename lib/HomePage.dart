@@ -257,8 +257,8 @@ class SelectionButton extends StatelessWidget {
     // After the Selection Screen returns a result, hide any previous snackbars
     // and show the new result.
     Scaffold.of(context)
-      ..removeCurrentSnackBar()
-      ..showSnackBar(SnackBar(content: Text("$result")));
+      ..removeCurrentSnackBar();
+      //..showSnackBar(SnackBar(content: Text("$result")));
   }
 }
 
@@ -327,8 +327,8 @@ class SelectionButton1 extends StatelessWidget {
     // After the Selection Screen returns a result, hide any previous snackbars
     // and show the new result.
     Scaffold.of(context)
-      ..removeCurrentSnackBar()
-      ..showSnackBar(SnackBar(content: Text("$result")));
+      ..removeCurrentSnackBar();
+      //..showSnackBar(SnackBar(content: Text("$result")));
   }
 }
 
